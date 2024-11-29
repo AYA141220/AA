@@ -331,6 +331,16 @@ void remplirfichier(FILE* f, float cout, CENTRE* C)
     fwrite(C->services,sizeof(SERVICE),C->nb_service,f);
     fwrite(&C->budget_totale,sizeof(float),1,f);
 }
+ void afficherfichier(FILE *f,CENTRE C)
+{
+  rewind(f);
+     fread(&C.libelle,sizeof(char),1,f);
+    fread(&C.nb_service,sizeof(int),1,f);
+     fread(&C.nb_chambre,sizeof(int),1,f);
+    fread(C.services,sizeof(SERVICE),C.nb_service,f);
+    fread(&C.budget_totale,sizeof(float),1,f);
+    Affichage(C);
+}
 
 
 

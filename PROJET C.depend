@@ -15,15 +15,15 @@
 	"bib.h"
 	<time.h>
 
-1732880406 source:c:\users\aya\downloads\projet_c_centre_handicap-main\projet_c_centre_handicap-main\main.c
+1732883836 source:c:\users\aya\downloads\projet_c_centre_handicap-main\projet_c_centre_handicap-main\main.c
 	<stdio.h>
 	<stdlib.h>
-	"bib.h"
+	"Bib.h"
 	"maBib.c"
 
-1732874900 c:\users\aya\downloads\projet_c_centre_handicap-main\projet_c_centre_handicap-main\bib.h
+1732883836 c:\users\aya\downloads\projet_c_centre_handicap-main\projet_c_centre_handicap-main\bib.h
 
-1732881422 c:\users\aya\downloads\projet_c_centre_handicap-main\projet_c_centre_handicap-main\mabib.c
-	"bib.h"
+1732884420 c:\users\aya\downloads\projet_c_centre_handicap-main\projet_c_centre_handicap-main\mabib.c
+	"Bib.h"
 	<time.h>
 
